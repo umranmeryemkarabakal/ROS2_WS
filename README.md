@@ -5,17 +5,17 @@
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
 </p>
 
-## 🇬🇧 Overview
+## Overview
 
 A ROS 2 workspace of tutorial packages worked through while learning ROS 2: publishers and subscribers, services, actions, custom interfaces, parameters, launch files, tf2, URDF and RViz.
 
 **Quick start:** `colcon build && source install/setup.bash`
 
-## 🇹🇷 Proje hakkında
+## Proje hakkında
 
 ROS 2 öğrenirken resmi eğitimler takip edilerek yazılmış paketlerden oluşan çalışma alanı.
 
-## 📦 Paketler
+## Paketler
 
 - `py_pubsub`: yayıncı / abone
 - `py_srvcli`: servis sunucu / istemci
@@ -27,7 +27,7 @@ ROS 2 öğrenirken resmi eğitimler takip edilerek yazılmış paketlerden oluş
 - `send_img`: `cv_bridge` ile görüntü yayını
 - `my_package`, `my_test_package`: ilk paket denemeleri
 
-## ⚙️ Kurulum ve çalıştırma
+## Kurulum ve çalıştırma
 
 ```bash
 cd ROS2_WS
@@ -38,7 +38,7 @@ source install/setup.bash
 ros2 run py_pubsub talker        # örnek
 ```
 
-## 📁 Dosya yapısı
+## Dosya yapısı
 
 ```text
 ROS2_WS/
